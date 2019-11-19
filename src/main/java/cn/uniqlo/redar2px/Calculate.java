@@ -4,6 +4,7 @@ import org.junit.Test;
 
 public class Calculate {
 
+    //展示图为文件夹中的mall.jpg
 
     //雷达点
     private Point[] redarPoints = {
