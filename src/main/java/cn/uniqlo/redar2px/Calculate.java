@@ -149,7 +149,7 @@ public class Calculate {
     private final static float[] weight = {5, 2, 1};//数据权重
 
 
-    public void testRangeMethod() {
+    public void testRadar2PixelSortWeight() {
 
         double radarX = -7.01705;
         double radarY = 8.96362;
