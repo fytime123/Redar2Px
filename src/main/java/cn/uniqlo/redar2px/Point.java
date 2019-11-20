@@ -1,18 +1,24 @@
-package com.uniqlo.radar2px;
+package com.uniqlo.robot;
 
 public class Point {
 
     private double x;
     private double y;
 
-    public static Point get(double x, double y) {
-        return new Point(x, y);
+    private double px;
+    private double py;
+
+    public static Point get(double x, double y,double px, double py) {
+        Point point = new Point();
+
+        point.setX(x);
+        point.setY(y);
+        point.setPx(px);
+        point.setPy(py);
+
+        return point;
     }
 
-    public Point(double x, double y) {
-        this.x = x;
-        this.y = y;
-    }
 
     public double getX() {
         return x;
@@ -28,5 +34,21 @@ public class Point {
 
     public void setY(double y) {
         this.y = y;
+    }
+
+    public double getPx() {
+        return px;
+    }
+
+    public void setPx(double px) {
+        this.px = px;
+    }
+
+    public double getPy() {
+        return py;
+    }
+
+    public void setPy(double py) {
+        this.py = py;
     }
 }

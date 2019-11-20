@@ -1,4 +1,4 @@
-package com.uniqlo.radar2px;
+package com.uniqlo.robot;
 
 public class Mapping {
     private double redar;
